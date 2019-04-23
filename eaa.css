@@ -1,0 +1,72 @@
+body {
+	font-family:"Open Sans", Times, "Times New Roman", serif;
+	background-color: #b3b3b3;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1600px;
+}
+
+#links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	border: solid white 1px;
+}
+
+
+.searchAndLang {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: auto;
+	background-color: #fecd04;
+	font-weight: bold;
+	opacity: 0.9;
+	padding: 5px;
+	font-size: 20px;
+	
+}
+
+a {
+	text-decoration: none;
+	font-size: 1em;
+	padding-left: 05px;
+	padding-right: 35px;
+}
+
+a:link {
+	color:black;
+}
+
+footer {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #b3b3b3;
+}
+
+#heading {
+	font-size: 2em;
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
