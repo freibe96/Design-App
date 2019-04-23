@@ -53,9 +53,15 @@ a:link {
 	color:black;
 }
 
-footer {
-	text-align: center;
-	color: #FFFFFF;
+.footer {
+	display: flex;
+	justify-content: unset;
+	align-items: center;
+	overflow: auto;
+	align-content: center;
+	background-color: white;
+	padding: 5px;
+	font-size: 15px;
 }
 
 a:hover {
@@ -69,4 +75,13 @@ a:hover {
 	padding-top: 5px;
 	padding-left: 25px;
 }
-
+.OshkoshInfoBody{
+	background-color: #b3b3b3;
+	color: black;
+	font-size: .4em
+}
+#oshkoshInfoHeading{
+	background-color: #b3b3b3;
+	color: black;
+	font-size: 1em
+}
