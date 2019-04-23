@@ -6,7 +6,7 @@ body {
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1600px;
+	width: auto;
 }
 
 #links {
@@ -16,6 +16,22 @@ body {
 
 .logo {
 	border: solid white 1px;
+}
+.header{
+	text-align: center;
+}
+
+.info{
+	border: solid black 1px;
+	margin: 20px;
+	padding: 5px;
+	font-size: 20px;
+}
+.description_header{
+	font-weight: bold;
+}
+.hyperlink {
+	text-align: center;
 }
 
 
