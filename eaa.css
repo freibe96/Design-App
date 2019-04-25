@@ -9,6 +9,10 @@ body {
 	width: auto;
 }
 
+a:visited {
+	color: black;
+}
+
 #links {
 	display: flex;
 	justify-content: space-between;
@@ -17,13 +21,44 @@ body {
 .logo {
 	border: solid white 1px;
 }
-.header{
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: auto;
+	background-color: #fecd04;
+	font-weight: bold;
+	opacity: 0.9;
+	padding: 5px;
+	font-size: 20px;
+	margin: 5px;
+	
+}
+
+.header-image{
+	background-image: url("https://static.themoscowtimes.com/image/article_1360/ce/2e591d3ff6604da2aa0222faad860e1c.jpg");
+	height: 500px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+	margin: 5px;
+}
+.header-text{
 	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 200%;
 }
 
 .info{
+	text-align: center;
 	border: solid black 1px;
-	margin: 20px;
+	margin: 5px;
 	padding: 5px;
 	font-size: 20px;
 }
@@ -32,6 +67,12 @@ body {
 }
 .hyperlink {
 	text-align: center;
+}
+.social-media{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	padding-top: 2px;
 }
 
 
@@ -45,18 +86,7 @@ body {
 	box-sizing: border-box;
 }
 
-#header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	overflow: auto;
-	background-color: #fecd04;
-	font-weight: bold;
-	opacity: 0.9;
-	padding: 5px;
-	font-size: 20px;
-	
-}
+
 
 a {
 	text-decoration: none;
@@ -69,9 +99,10 @@ a:link {
 	color:black;
 }
 
-footer {
+.footer {
 	text-align: center;
 	color: #FFFFFF;
+	margin: 5px;
 }
 
 a:hover {
