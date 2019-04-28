@@ -1,0 +1,109 @@
+body {
+	font-family:"Open Sans", Times, "Times New Roman", serif;
+	background-color: #b3b3b3;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+    width: auto;
+    font-size: 200%;
+}
+
+#links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	border: solid white 1px;
+}
+
+
+.searchAndLang {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: auto;
+	background-color: #fecd04;
+	font-weight: bold;
+	opacity: 0.9;
+	padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+	
+}
+
+a {
+	text-decoration: none;
+	font-size: 1em;
+	padding-left: 05px;
+	padding-right: 35px;
+}
+
+a:link {
+	color:black;
+}
+
+.footer {
+	display: flex;
+	justify-content: unset;
+	align-items: center;
+	overflow: auto;
+	align-content: center;
+	background-color: white;
+	padding: 5px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+a:hover {
+	color: red;
+}
+
+#heading {
+	font-size: 2em;
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+.resources{
+	border: solid black 1px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+    background-color: #b3b3b3;
+    margin: 5px;
+
+}
+.resources-image {
+    background-image: url("https://www.ci.oshkosh.wi.us/Resources/images/CityHall.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+  }
+  
+  .resources-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+
