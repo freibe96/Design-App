@@ -6,16 +6,13 @@ body {
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-	width: auto;
+    width: auto;
+    font-size: 200%;
 }
 
 #links {
 	display: flex;
 	justify-content: space-between;
-}
-
-a:visited {
-	color: black;
 }
 
 .logo {
@@ -42,7 +39,8 @@ a:visited {
 	font-weight: bold;
 	opacity: 0.9;
 	padding: 5px;
-	font-size: 20px;
+    font-size: 20px;
+    margin: 5px;
 	
 }
 
@@ -57,13 +55,18 @@ a:link {
 	color:black;
 }
 
-footer {
+.footer {
+	
+	background-color: white;
+	padding: 5px;
+    font-size: 15px;
+	margin: 5px;
 	text-align: center;
-	color: #FFFFFF;
+	align-content: center;
 }
 
 a:hover {
-	color: #b3b3b3;
+	color: red;
 }
 
 #heading {
@@ -73,4 +76,31 @@ a:hover {
 	padding-top: 5px;
 	padding-left: 25px;
 }
+.resources{
+	border: solid black 1px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+    background-color: #b3b3b3;
+    margin: 5px;
 
+}
+.resources-image {
+    background-image: url("https://bernersschober.com/images/portfolios/projects-portfolios/education-portfolios/UWO-Horizon-Village-New-Residence-Hall/21-uwo-horizon-village.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+  }
+  
+  .resources-text {
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }

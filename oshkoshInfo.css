@@ -56,15 +56,13 @@ a:link {
 }
 
 .footer {
-	display: flex;
-	justify-content: unset;
-	align-items: center;
-	overflow: auto;
-	align-content: center;
+	
 	background-color: white;
 	padding: 5px;
     font-size: 15px;
-    margin: 5px;
+	margin: 5px;
+	text-align: center;
+	align-content: center;
 }
 
 a:hover {
@@ -90,7 +88,7 @@ a:hover {
 .resources-image {
     background-image: url("http://www.potterlawson.com/wp-content/uploads/2013/06/Exterior-Front-1030x761.jpg");
     background-color: #cccccc;
-    height: 500px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +100,7 @@ a:hover {
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
   }
